@@ -102,7 +102,7 @@ export default function FlightMap({
       style: getBasemapStyle(theme),
       center,
       zoom,
-      attributionControl: { compact: true },
+      attributionControl: false,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     mapRef.current = map;

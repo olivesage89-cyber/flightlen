@@ -57,17 +57,17 @@ export default function HomeClient() {
           onSelectAircraft={(a) => setSelectedIcao24(a.icao24)}
         />
 
-        <div className="pointer-events-none absolute left-4 top-4 z-10 max-w-xs rounded-2xl border border-white/60 bg-white/80 px-4 py-3 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/70">
-          <div className="flex items-center gap-2">
-            <span className="relative flex h-2 w-2 flex-none">
+        <div className="pointer-events-none absolute left-2 top-2 z-10 max-w-[150px] rounded-xl border border-white/60 bg-white/80 px-2.5 py-2 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/70 sm:left-4 sm:top-4 sm:max-w-xs sm:rounded-2xl sm:px-4 sm:py-3">
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <span className="relative flex h-1.5 w-1.5 flex-none sm:h-2 sm:w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500 sm:h-2 sm:w-2" />
             </span>
-            <p className="text-sm font-semibold">
+            <p className="text-[11px] font-semibold leading-tight sm:text-sm">
               {loading ? "Loading live traffic…" : `${aircraft.length.toLocaleString()} aircraft tracked`}
             </p>
           </div>
-          <p className="mt-0.5 text-xs text-slate-400">
+          <p className="mt-0.5 text-[10px] leading-tight text-slate-400 sm:text-xs">
             {error
               ? error
               : secondsAgo != null
@@ -75,7 +75,7 @@ export default function HomeClient() {
               : "Connecting to live feed…"}
           </p>
           {flightNotFound && (
-            <p className="mt-1 text-xs text-amber-600 dark:text-amber-400">
+            <p className="mt-1 text-[10px] leading-tight text-amber-600 dark:text-amber-400 sm:text-xs">
               &quot;{flightQuery}&quot; isn&apos;t currently airborne in the live feed.
             </p>
           )}

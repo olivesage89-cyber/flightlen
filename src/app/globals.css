@@ -75,6 +75,19 @@ body {
   @apply rounded-xl shadow-panel;
 }
 
+/* Shrink + reposition the default zoom control so it stays small and
+   tucked in the corner instead of the library's default full-size buttons. */
+.maplibregl-ctrl-top-right {
+  top: 6px !important;
+  right: 6px !important;
+}
+.maplibregl-ctrl-group {
+  transform: scale(0.72);
+  transform-origin: top right;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
 .scrollbar-thin::-webkit-scrollbar {
   width: 6px;
 }
