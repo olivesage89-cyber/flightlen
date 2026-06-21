@@ -40,13 +40,13 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable}`}
     >
-      <body className="flex min-h-screen flex-col font-sans">
+      <body className="flex min-h-dvh flex-col font-sans">
         <ThemeProvider>
           <PremiumProvider>
             <NavBar />
-            <div className="flex flex-1 w-full mx-auto max-w-[1600px]">
+            <div className="flex min-h-0 flex-1 w-full mx-auto max-w-[1600px]">
               <AdSlot position="left" />
-              <main className="flex-1 min-w-0">{children}</main>
+              <main className="flex-1 min-w-0 min-h-0">{children}</main>
               <AdSlot position="right" />
             </div>
           </PremiumProvider>

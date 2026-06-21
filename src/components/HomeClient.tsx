@@ -45,7 +45,7 @@ export default function HomeClient() {
   }, [lastUpdated]);
 
   return (
-    <div className="flex h-[calc(100vh-64px)] w-full flex-col">
+    <div className="flex h-full min-h-0 w-full flex-col">
       <div className="px-4 pt-3 sm:hidden">
         <AdSlot position="inline" />
       </div>
