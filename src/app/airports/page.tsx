@@ -5,7 +5,7 @@ import { getAllAirports } from "@/lib/airports";
 export const metadata: Metadata = {
   title: "U.S. Airports — Live Arrivals, Departures & Weather",
   description:
-    "Browse live arrivals, departures, weather, and runway conditions for major U.S. airports on FlightLine.",
+    "Browse live arrivals, departures, weather, and runway conditions for major U.S. airports on FlightLen.",
 };
 
 export default function AirportsDirectoryPage() {

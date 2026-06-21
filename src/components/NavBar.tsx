@@ -1,7 +1,9 @@
 import Link from "next/link";
 import SearchBar from "./SearchBar";
 import ThemeToggle from "./ThemeToggle";
-import AccountMenu from "./AccountMenu";
+// AccountMenu is hidden until the premium tier ships — re-add <AccountMenu />
+// below once accounts/favorites are part of the live product.
+// import AccountMenu from "./AccountMenu";
 
 export default function NavBar() {
   return (
@@ -14,7 +16,7 @@ export default function NavBar() {
             </svg>
           </span>
           <span className="font-display gradient-text text-lg font-bold tracking-tight">
-            FlightLine
+            FlightLen
           </span>
         </Link>
 
@@ -33,7 +35,6 @@ export default function NavBar() {
 
         <div className="ml-auto flex flex-none items-center gap-3">
           <ThemeToggle />
-          <AccountMenu />
         </div>
       </div>
 

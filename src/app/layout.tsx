@@ -21,11 +21,11 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "FlightLine — Know what's happening in the sky",
-    template: "%s | FlightLine",
+    default: "FlightLen — Know what's happening in the sky",
+    template: "%s | FlightLen",
   },
   description:
-    "FlightLine is a live U.S. flight tracker and airport intelligence platform. See real-time aircraft, airport weather, runway conditions, and plain-English explanations in seconds.",
+    "FlightLen is a live U.S. flight tracker and airport intelligence platform. See real-time aircraft, airport weather, runway conditions, and plain-English explanations in seconds.",
   metadataBase: new URL("https://flightlen.com"),
 };
 

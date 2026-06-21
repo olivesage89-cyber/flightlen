@@ -19,7 +19,7 @@ const PremiumContext = createContext<PremiumContextValue>({
   setIsPremium: () => {},
 });
 
-const STORAGE_KEY = "flightline_premium_demo";
+const STORAGE_KEY = "flightlen_premium_demo";
 
 /**
  * Stub premium flag so the rest of the app (ad slots, future gated

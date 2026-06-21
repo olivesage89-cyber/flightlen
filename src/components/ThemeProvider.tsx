@@ -26,7 +26,7 @@ const ThemeContext = createContext<ThemeContextValue>({
   setMode: () => {},
 });
 
-const STORAGE_KEY = "flightline_theme_mode";
+const STORAGE_KEY = "flightlen_theme_mode";
 
 /**
  * Resolves "auto" using, in priority order:

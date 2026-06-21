@@ -1,4 +1,4 @@
-# FlightLine
+# FlightLen
 
 Live U.S. flight map + airport intelligence, built with Next.js. Know what's happening in the sky and at your airport in 30 seconds.
 

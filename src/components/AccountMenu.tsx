@@ -5,7 +5,7 @@ import { supabase, supabaseEnabled } from "@/lib/supabaseClient";
 
 /**
  * Minimal optional-accounts entry point. Accounts are not required to use
- * FlightLine — this just gives logged-out visitors a way to save favorite
+ * FlightLen — this just gives logged-out visitors a way to save favorite
  * airports/flights once Supabase is configured (see .env.example).
  */
 export default function AccountMenu() {

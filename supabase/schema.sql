@@ -1,4 +1,4 @@
--- FlightLine starter schema.
+-- FlightLen starter schema.
 -- Run this in the Supabase SQL editor once you've created a project and
 -- filled in NEXT_PUBLIC_SUPABASE_URL / NEXT_PUBLIC_SUPABASE_ANON_KEY.
 --

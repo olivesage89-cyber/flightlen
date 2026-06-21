@@ -24,7 +24,7 @@ interface FlightMapProps {
 
 function planeMarkerEl(heading: number, isSelected: boolean): HTMLDivElement {
   const el = document.createElement("div");
-  el.className = "flightline-aircraft-marker";
+  el.className = "flightlen-aircraft-marker";
   el.style.width = "26px";
   el.style.height = "26px";
   el.style.cursor = "pointer";
