@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   description:
     "FlightLine is a live U.S. flight tracker and airport intelligence platform. See real-time aircraft, airport weather, runway conditions, and plain-English explanations in seconds.",
-  metadataBase: new URL("https://flightline.app"),
+  metadataBase: new URL("https://flightlen.com"),
 };
 
 export default function RootLayout({
