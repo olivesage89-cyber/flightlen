@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { PremiumProvider } from "@/lib/premium";
 import NavBar from "@/components/NavBar";
 import AdSlot from "@/components/AdSlot";
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -51,6 +52,7 @@ export default function RootLayout({
             </div>
           </PremiumProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
